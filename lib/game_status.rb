@@ -22,3 +22,9 @@ def won?(board)
     position_taken?(board, winc[0])
   end
 end
+
+def full(board)
+  board.all? do |token|
+    token == "X" || token == "O"
+  end
+end
