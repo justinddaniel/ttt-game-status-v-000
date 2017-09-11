@@ -22,6 +22,3 @@ def won?(board)
     position_taken?(board, winc[0])
   end
 end
-
-    
-  
