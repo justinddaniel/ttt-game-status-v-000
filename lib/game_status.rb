@@ -42,5 +42,3 @@ def winner(board)
     board[winc.first]
   end
 end
-
-  
